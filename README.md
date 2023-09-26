@@ -23,4 +23,4 @@ This project is open-source and available under the MIT License.
 
 ## Author
 
-- [Your Name](https://github.com/alexlux58)
+- [Alex Lux](https://github.com/alexlux58)
