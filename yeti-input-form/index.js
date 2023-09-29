@@ -271,6 +271,7 @@ function onPasswordBlur(e) {
 }
 
 function coverEyes() {
+  armL.style.opacity = 1;
   TweenMax.to(armL, 0.45, { x: -93, y: 2, rotation: 0, ease: Quad.easeOut });
   TweenMax.to(armR, 0.45, {
     x: -93,
@@ -282,6 +283,7 @@ function coverEyes() {
 }
 
 function uncoverEyes() {
+  armL.style.opacity = 1;
   TweenMax.to(armL, 1.35, { y: 220, ease: Quad.easeOut });
   TweenMax.to(armL, 1.35, { rotation: 105, ease: Quad.easeOut, delay: 0.1 });
   TweenMax.to(armR, 1.35, { y: 220, ease: Quad.easeOut });
